@@ -34,7 +34,7 @@ const Hero = () => {
           className="h-full w-full object-cover"
         >
           {/* Replace with your hosted video file. Poster shows in the meantime. */}
-          <source src={`${import.meta.env.BASE_URL}hero.mp4`} type="video/mp4" />
+          <source src="https://res.cloudinary.com/dre4iwv4a/video/upload/v1776954448/hero_lduab4.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-ink/45" />
         <div className="absolute inset-0 bg-gradient-veil" />
