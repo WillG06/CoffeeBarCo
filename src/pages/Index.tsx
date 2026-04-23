@@ -12,6 +12,7 @@ import beans from "@/assets/beans.jpg";
 import g1 from "@/assets/gallery-1.jpg";
 import g2 from "@/assets/gallery-2.jpg";
 import g6 from "@/assets/gallery-6.jpg";
+import heroVideo from "@/assets/hero.mp4";
 
 const Hero = () => {
   const ref = useRef<HTMLDivElement>(null);
@@ -33,7 +34,7 @@ const Hero = () => {
           className="h-full w-full object-cover"
         >
           {/* Replace with your hosted video file. Poster shows in the meantime. */}
-          <source src="/hero.mp4" type="video/mp4" />
+          <source src={heroVideo} type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-ink/45" />
         <div className="absolute inset-0 bg-gradient-veil" />
